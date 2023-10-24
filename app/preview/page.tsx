@@ -4,7 +4,7 @@ const CurriculaPreview: NextPage = () => {
     return (
         <div className="w-full bg-gray-600  flex flex-col items-center justify-center">
             {/* page 1 */}
-            <div className="mt-2 relative bg-white w-[1200px] h-[1700px] overflow-hidden text-left text-6xl text-white font-inter">
+            <div className="mt-2 relative bg-white w-[1200px] h-[1543px] overflow-hidden text-left text-6xl text-white font-inter">
                 <div className="flex justify-between py-20  text-steelblue-300">
                     <div className="flex flex-col justify-center items-center w-1/2">
                         <img
@@ -33,9 +33,9 @@ const CurriculaPreview: NextPage = () => {
                     </div>
                 </div>
                 <div className="flex justfy-between">
-                    <div className="z-40 relative right w-[1050px] h-[682px]">
+                    <div className="z-40 relative right w-[1050px] h-[652px]">
                         <img
-                            className="w-full z-40 "
+                            className="w-full h-[654px] z-40 "
                             alt=""
                             src="/Vector 11.png"
                         />
@@ -50,7 +50,7 @@ const CurriculaPreview: NextPage = () => {
                         </div>
                         <div className="">
                             <img
-                                className="relative w-[450px] h-[433px]"
+                                className="relative w-[450px] h-[404px]"
                                 alt=""
                                 src="/Vector 12.png"
                             />
@@ -61,36 +61,39 @@ const CurriculaPreview: NextPage = () => {
                         </div>
                     </div>
                 </div>
+                <div>
 
-                <div className="z-40 bg-blue-600 text-center font-bold text-[40px] py-10 mt-0">
-                    <span className=" text-white p-0 m-0 ">
-                        <p className=" text-white p-0 m-0 ">TVET CERTIFICATE IV </p>
-                        <p className=" text-white p-0 m-0">in</p>
-                        <p className=" text-white p-0 m-0">MULTIMEDIA PRODUCTION</p>
-                    </span>
-                </div>
-                
-                {/*footer  */}
-                <div className="flex justify-between ">
-                    <div className="absolute z-40 bg-cornflowerblue w-[1512px] h-[17px] opacity-80"></div>
-                    <div className="relative">
-                        <img
-                            className=" w-[650px]"
-                            alt=""
-                            src="/Vector 13.png"
-                        />
-                        <div className="absolute top-20 left-20 rounded-[50%] bg-white box-border w-[200px] h-[200px] border-[10px] border-solid border-steelblue-100 flex justify-center items-center">
-                            <span className="text-gray-800 font-bold">ICTMMP402</span>
-                        </div>
+                    
+                    <div className="z-40 bg-blue-600 text-center font-medium text-[30px] py-5 mt-0">
+                        <span className=" text-white p-0 m-0 ">
+                            <p className=" text-white p-0 m-0 ">TVET CERTIFICATE IV </p>
+                            <p className=" text-white p-0 m-0">in</p>
+                            <p className=" text-white p-0 m-0">MULTIMEDIA PRODUCTION</p>
+                        </span>
                     </div>
-                    <div className="text-gray-800 font-semibold flex justify-start items-center px-20">
-                        Kigali, May, 2023
+                    
+                    {/*footer  */}
+                    <div className="flex justify-between ">
+                        <div className="absolute z-40 bg-cornflowerblue w-[1512px] h-[17px] opacity-80"></div>
+                        <div className="relative">
+                            <img
+                                className=" w-[650px]"
+                                alt=""
+                                src="/Vector 13.png"
+                            />
+                            <div className="absolute top-16 left-20 rounded-[50%] bg-white box-border w-[200px] h-[200px] border-[10px] border-solid border-steelblue-100 flex justify-center items-center">
+                                <span className="text-gray-800 font-bold">ICTMMP402</span>
+                            </div>
+                        </div>
+                        <div className="text-gray-800 font-semibold flex justify-start items-center px-20">
+                            Kigali, May, 2023
+                        </div>
                     </div>
                 </div>
             </div>
 
             {/* page 2 */}
-            <div className="mt-2 relative bg-white w-[1200px] h-[1700px] overflow-hidden text-left text-21xl text-steelblue-100 font-inter">
+            <div className="mt-2 relative bg-white w-[1200px] h-[1543px] overflow-hidden text-left text-21xl text-steelblue-100 font-inter">
                 <div className="w-full flex justify-end ">
                     <img
                         className="object-contain px-20 py-40"
@@ -126,7 +129,7 @@ const CurriculaPreview: NextPage = () => {
                     </div>
                 </div>
                 <img
-                    className="absolute top-[0px] left-[0px] w-[300px] h-[1700] object-cover"
+                    className="absolute top-[0px] left-[0px] w-[300px] h-[1543px] object-cover"
                     alt=""
                     src="/design-element-wavy-lines-tape-motion11_299644-15641 1.svg"
                 />
